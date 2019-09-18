@@ -14,10 +14,12 @@ html, body {
 
 header {
 	display: flex;
-	background-image: url('/static/images/martian.svg');
-	background-position: center top;
+	/* background-image: url('/static/images/martian.svg'); */
+	/* background-color: #091433; */
+	/* background-position: center top; */
 	background-size: cover;
 	justify-content: space-between;
+	height: 15rem;
 }
 
 .grubbernaut {
@@ -27,12 +29,13 @@ header {
 }
 
 .nav {
-    display: flex;
+    display: block;
     flex-direction: row;
     flex-wrap: nowrap;
 	list-style: none;
 	padding-right: 1rem;
 	align-items: center;
+	border: 1px solid black;
 }
 
 .nav a {
@@ -41,13 +44,14 @@ header {
 	padding: 1rem;
 	display: flex;
 	justify-content: flex-end;
-	font-size: 1.25rem;
+	font-size: .75rem;
+	border: 1px solid black;
 } 
 
 /***************************** BODY ELEMENTS *****************************/
 
 
-body {
+/* body {
 	background-color: #091433;	
 }
 
@@ -57,9 +61,9 @@ body {
 	align-items: center;
 	justify-content: center;
 	border-radius: 15px;
-}
+} */
 
-#discover {
+/* #discover {
 	color: #27bace;
 	margin: 2.5rem;
 	font-size: 2.25rem;
@@ -73,9 +77,9 @@ body {
     justify-content: center;
     padding: 10px;
     
-}
+} */
 
-.search-reports {
+/* .search-reports {
     color: #27bace;
     font-size: 1.5rem;
     display: flex;
@@ -90,9 +94,9 @@ body {
     justify-content: center;
 	color: black;
 	text-align: center;
-}
+} */
 
-#search-input {
+/* #search-input {
 	width: 50rem; 
 	height: 4rem;
 	text-align: center;
@@ -102,13 +106,13 @@ body {
 .autocomplete-items {
 	color:#27bace;
 	text-align: center;
-}
+} */
 
 
 /*********************** DYNAMIC ELEMENTS *************************/
 
 
-.restaurant-name {
+/* .restaurant-name {
     padding-top: 10px;
 	margin-top: 10px;
 	text-align: center;
@@ -116,13 +120,10 @@ body {
 }
 
 .restaurant-address {
-	/* margin-left: 20px; */
-	/* height: 4rem; */
 	text-align: center;
-	/* font-size: 2rem; */
-}
+} */
 
-.explore-button {
+/* .explore-button {
 	margin: 1rem;
 	height: 3rem;
 	border-radius: 1rem;
@@ -140,9 +141,6 @@ body {
 	outline: none;
 	font-size: 1rem;
 	padding: 0.5rem;
-    
-	
-
 }
 
 .violations-title {
@@ -222,14 +220,14 @@ body {
 	
 } */
 
-.browse-restaurant-yelp-score {
+/* .browse-restaurant-yelp-score {
 	margin: 2rem;
 	text-align: center;
 }
 
 .browse-restaurant-yelp-score-number {
 	font-size: 3rem;
-}
+} */
 
 /* .browse-restaurant-yelp-score-heading {
 
@@ -237,7 +235,7 @@ body {
 
 /************************ ABOUT PAGE  *******************/
 
-#about {
+/* #about {
 	color: #27bace;
 	margin: 2.5rem;
 	text-align: justify;
@@ -312,4 +310,4 @@ section {
 
 .api-list {
 
-}
+} */
